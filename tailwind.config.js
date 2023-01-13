@@ -24,7 +24,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'CoffeLait': "url('/src/imagen/cafeconleche.jpeg')",
+        'CoffeLait': "url('/src/page/home/imageHome/cafeconleche.jpeg')",
       }
     },
   },

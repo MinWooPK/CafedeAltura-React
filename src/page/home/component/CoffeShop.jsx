@@ -1,6 +1,6 @@
-import restaurante from '../imagen/restaurante.jpg'
+import restaurante from '../imageHome/restaurante.jpg'
 import { Link } from 'react-router-dom'
-import arrowRight from '../imagen/Arrow-right.png'
+import arrowRight from '../imageHome/Arrow-right.png'
 export default function CoffeShop() {
 
     return (

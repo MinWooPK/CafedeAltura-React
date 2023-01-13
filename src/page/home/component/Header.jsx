@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom"
-import CoffePlant from '../imagen/Planta-de-café.jpg'
+import CoffePlant from '../imageHome/Planta-de-café.jpg'
 
 export default function Header() {
 

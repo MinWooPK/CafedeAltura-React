@@ -1,6 +1,7 @@
-import Gift from '../imagen/Gift.png'
-import Truck from '../imagen/Truck.png'
-import Clipboard from '../imagen/Clipboard.png'
+
+import Truck from '../imageHome/Truck.png'
+import Clipboard from '../imageHome/Clipboard.png'
+import Gift from '../imageHome/Gift.png'
 
 export default function Cards() {
 
