@@ -26,6 +26,6 @@ export default function NavBar() {
 }
 
 function showLinks(location) {
-    const hideLinkPaths = ['/coffee_cart']
+    const hideLinkPaths = ['/Basket']
     return !hideLinkPaths.includes(location.pathname)
 }

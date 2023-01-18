@@ -8,7 +8,7 @@ export default function CoffeeCartShopping() {
 
     return (
         <div className="flex items-center">
-            <Link to="/coffee_cart">
+            <Link to="/Basket">
                 <img src={basket} alt="bag" />
             </Link>
             <div className="rounded-full p-2 m-2 text-white bg-grey w-6 h-6 flex items-center justify-center text-sm">

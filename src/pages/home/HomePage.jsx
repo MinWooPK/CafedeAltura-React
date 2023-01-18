@@ -27,7 +27,7 @@ export default function HomePage() {
     <><NavBar />
     <Header />
     <Cards />
-    {/* <CoffeeCardsSection /> */}
+    <CoffeeCardsSection />
     <FAQ />
     <CoffeShop />
     <ContactUs />
