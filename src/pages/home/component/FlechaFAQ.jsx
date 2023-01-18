@@ -8,19 +8,18 @@ const FAQ = ({ tittle, text, id }) => {
 
 
     return (
-        <div className="bg-white flex flex-col w-[668px] p-[22px] rounded-[10px] " key={id}>
+        <div className="bg-white flex flex-col w-[668px] p-[22px] rounded-[10px] cursor-pointer" key={id} onClick={() => setToggle(!toggle)}>
             <div className=" flex flex-row justify-between text-[18px] font-semibold
                   
             ">
-                {tittle}
+                {tittle} 
                 <img src={Chevron} alt='Chevron'
                     className={toggle ? "rotate-0" : "rotate-180"}
-                    onClick={() => setToggle(!toggle)}
                 /></div>
 
             {toggle ? 
                 <div className=" translate-y-1 text-[12px] text-start ">
-                                <img className="py-4" src={divider} alt="" />
+                                <img className="py-4" src={divider} alt="FAQ" />
                     {text}</div> :
                 <div></div>}
         </div>

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export const NavLinks = () => {
+export default function NavLinks() {
   return (
     <div className="flex gap-10 ">
       <Link to="/shop">Tienda</Link>

@@ -1,31 +1,31 @@
 import { Route, Routes } from 'react-router-dom';
-import Header from '../page/home/component/Header';
-import Cards from '../page/home/component/Cards'
-import FAQ from '../page/home/component/FAQ';
-import CoffeShop from '../page/home/component/CoffeShop';
-import ContactUs from '../page/home/component/ContactUs';
-import { NavBar } from '../page/home/component/NavBar';
-import Footer from './Footer';
-import ShopCoffeCards from '../page/shop/CoffeeCardShop';
-import CoffeeCardsSection from '../page/home/component/CoffeCardsHomePage';
+import  NavBar  from '../pages/home/component/NavBar';
 import FooterEnd from './Footer-End';
+import HomePage from '../pages/home/HomePage';
+import ShopPage from '../pages/shop/ShopPage';
+import SuscriptionPage from '../pages/subscription/SubscriptionPage';
+import BasketShop from '../pages/Basket/BasketPage';
 
-export default function HomeRoutes() {
+export default function MainRoutes() {
 
     return (
         <Routes>
 
-            <Route path='/' element={<><NavBar />
-                <Header /><Cards /> <CoffeeCardsSection /> <FAQ /> <CoffeShop /><ContactUs /><Footer />
+            <Route path='/' element={<HomePage />} />
+            <Route path='/shop' element={<><ShopPage />
+        </>} />
+            <Route path='/suscripcion' element={<><SuscriptionPage />
             </>} />
-            <Route path='/shop' element={<><NavBar />
-            <ShopCoffeCards/>   <Cards />  <Footer /></>} />
-
-            <Route path='/Basket' element={<><FooterEnd/>
+            <Route path='/para_empresas' element={<><NavBar /><FooterEnd/>
             </>} />
-            <Route path='/Checkout' element={<><FooterEnd/>
+            <Route path='/sobre_nosotros' element={<><NavBar /><FooterEnd/>
             </>} />
-
+            <Route path='/contacto' element={<><NavBar /><FooterEnd/>
+            </>} />
+            <Route path='/Basket' element={<><BasketShop/>
+            </>} />
+            <Route path='/Checkout' element={<><NavBar /><FooterEnd/>
+            </>} />
             <Route path='/Success' element={<><NavBar/><FooterEnd/>
             </>} />
         </Routes>

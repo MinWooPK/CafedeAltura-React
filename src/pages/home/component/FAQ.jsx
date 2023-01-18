@@ -3,6 +3,7 @@ import Arrow from "../imageHome/Arrow-White.png";
 import { Link } from "react-router-dom";
 
 export default function FAQ() {
+  
     const data = [{
         tittle: "¿Cómo hago el pedido?",
         text: "Selecciona el café que desees probar y completa el proceso de compra. Si lo prefieres, te preguntaremos cada cuánto quieres que te lo mandemos a casa y así nunca te quedarás sin café.",

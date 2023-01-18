@@ -7,7 +7,7 @@ export default function ContactUs() {
 
     return (
 
-        <div className="bg-Timberwolf flex flex-row px-[40px] gap-6">
+        <div className="bg-Timberwolf flex flex-row justify-between px-[40px] gap-6">
 
             <div className="py-[110px] flex flex-col text-start w-[588px]">
                 <div className="flex  flex-col gap-3">

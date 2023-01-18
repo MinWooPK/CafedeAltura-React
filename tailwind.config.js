@@ -20,11 +20,14 @@ module.exports = {
       'strong-green': '#2a5b45',
       'green': '#2A5B45',
       'Timberwolf': '#d5d2cd',
-      'strong-grey': '#2b2a2b'
+      'strong-grey': '#2b2a2b',
+      'hover-coffee' : '#F7F5F3',
+      'offwhite': '#f7f5f3',
+      'taupe' : '#E3DED7',
     },
     extend: {
       backgroundImage: {
-        'CoffeLait': "url('/src/page/home/imageHome/cafeconleche.jpeg')",
+        'CoffeLait': "url('/src/pages/home/imageHome/cafeconleche.jpeg')",
       }
     },
   },

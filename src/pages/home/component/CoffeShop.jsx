@@ -1,11 +1,12 @@
 import restaurante from '../imageHome/restaurante.jpg'
 import { Link } from 'react-router-dom'
 import arrowRight from '../imageHome/Arrow-right.png'
+
 export default function CoffeShop() {
 
     return (
         <div className="py-[45px] px-[40px]">
-            <div className="flex gap-6 items-center">
+            <div className="flex gap-6 items-center justify-between">
                 <div className="flex flex-col text-start gap-4  w-[588px]">
                     <h2 className='text-green text-[24px] font-medium'>Pruebálo en nuestro coffe shop</h2>
                     <p className='text-[13px] font-normal leading-4'> Visita nuestra cafetería en el centro de la ciudad para probar los granos de café antes de hacer tu
